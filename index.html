@@ -74,7 +74,7 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Beschreibu'] !== null ? autolinker.link(feature.properties['Beschreibu'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Beschreibu'] !== null ? '<strong>' + autolinker.link(feature.properties['Beschreibu'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Beschrei_1'] !== null ? autolinker.link(feature.properties['Beschrei_1'].toLocaleString()) : '') + '</td>\
@@ -86,7 +86,7 @@
                         <td colspan="2">' + (feature.properties['Dritte Z'] !== null ? autolinker.link(feature.properties['Dritte Z'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['zweite'] !== null ? autolinker.link(feature.properties['zweite'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['zweite'] !== null ? '<strong>' + autolinker.link(feature.properties['zweite'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Beschrei_2'] !== null ? autolinker.link(feature.properties['Beschrei_2'].toLocaleString()) : '') + '</td>\
